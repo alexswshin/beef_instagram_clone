@@ -1,11 +1,12 @@
 #login{
   width: 75%;
-  margin: 47px auto;
+  margin: 200px auto 300px auto;
   max-width: 700px;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
   justify-content: space-between;
+
 }
 
 .login__firstimg{
@@ -13,7 +14,7 @@
 }
 
 .login__column{
-  width: 47%;
+  width: 49%;
   font-size: 14px;
 }
 

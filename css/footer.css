@@ -8,12 +8,13 @@ footer {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
-  flex-wrap: wrap;
 }
 
 footer .footer__list {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
 .footer__list .footer__item {
