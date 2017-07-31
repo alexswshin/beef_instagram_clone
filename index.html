@@ -4,12 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Login | Beef_InstagramClone</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <main>
+  <main id="login">
+    <div class="login__column">
+      <div class="login__firstimg">
+        <img src="images/login_img.png">
+      </div>
+    </div>
+    <div class="login__column">
+      <div class="login__box">
+        <div class="login__secondimg">
+          <img src="images/login_img2.png" />
+        </div>
+
+        <form action="feed.html" method="get" class="login__form">
+          <input type="text" name="username">
+          <input type="password" name="password">
+          <input type="submit">
+        </form>
+        <a href="https://www.instagram.com/accounts/password/reset/">
+          <span class="login__forgotpwd">Forgot password?</span>
+        </a>
+      </div>
+      <div class="login__box">
+        <span class="login__noAccount">Don't have an account?</span>
+        <a href="https://www.instagram.com/accounts/signup" class="login__signUp">
+          <span>Sign up</span>
+        </a>
+      </div>
+      <div class="login__t-box">
+        <span class="login__getTheApp">Get the App</span>
+        <div class="login__appStores">
+          <a href="https://itunes.apple.com/app/instagram/id389801252?mt=8">
+            <img src="images/iosStore.png" class="login__appStore">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26utm_medium%3Dbadge">
+            <img src="images/androidStore.png" class="login__appStore">
+          </a>
+        </div>
+      </div>
+    </div>
 
   </main>
   <footer>

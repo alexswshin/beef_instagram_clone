@@ -1,0 +1,41 @@
+#login{
+  width: 75%;
+  height: 900px;
+  margin: 47px auto;
+  max-width: 700px;
+  max-height: 500px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+
+
+.login__firstimg{
+  max-width: 100%;
+}
+
+.login__column{
+  width: 47%;
+
+}
+
+
+
+.login__column  .login__box {
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.login__secondimg{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7px;
+}
